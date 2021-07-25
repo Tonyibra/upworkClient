@@ -5,6 +5,12 @@ import styled from "styled-components";
 import NavLink from "../Components/NavLink.js";
 import dynamic from "next/dynamic";
 import LandingBottomPart from "../Components/LandingBottomPart";
+import CarouselSection from "../Components/CarouselSection";
+import TopArticles from "../Components/TopArticles";
+import Trusted from "../Components/Trusted";
+import MidArticles from "../Components/MidArticles";
+import BottomList from "../Components/BottomList";
+import Footer from "../Components/Footer";
 const Landing = dynamic(() => import("../Components/Landing"), {
   ssr: false,
 });
@@ -25,8 +31,16 @@ export default function Home() {
       <main>
         <Landing />
         <LandingBottomPart />
+        <CarouselSection />
+        <TopArticles />
+        <Trusted />
+        <MidArticles />
+        <BottomList />
       </main>
       {/* footer */}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

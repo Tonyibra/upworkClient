@@ -50,4 +50,13 @@ const Paragraph = styled.p`
   max-width: 570px;
   display: flex;
   align-items: center;
+  color: #7b8a96;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  line-height: 1.5;
+  min-width: 300px;
+  text-rendering: optimizeLegibility;
 `;
