@@ -11,6 +11,7 @@ import Trusted from "../Components/Trusted";
 import MidArticles from "../Components/MidArticles";
 import BottomList from "../Components/BottomList";
 import Footer from "../Components/Footer";
+import FinalArticle from "../Components/FinalArticle";
 const Landing = dynamic(() => import("../Components/Landing"), {
   ssr: false,
 });
@@ -35,7 +36,9 @@ export default function Home() {
         <TopArticles />
         <Trusted />
         <MidArticles />
+
         <BottomList />
+        <FinalArticle />
       </main>
       {/* footer */}
       <footer>
