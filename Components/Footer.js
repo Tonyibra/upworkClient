@@ -92,7 +92,7 @@ const BottomFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 70%;
+  width: 90%;
 `;
 
 const SubTitle = styled.span`
@@ -137,8 +137,8 @@ const FooterCard = styled.div`
 const Content = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 70%;
+  justify-content: space-between;
+  width: 60%;
   margin: auto;
 `;
 

@@ -112,7 +112,7 @@ const Articles = styled.div`
 `;
 const ArticleTitle = styled.span`
   color: #165297;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.6;
   margin: 48px 0 16px;
@@ -170,7 +170,7 @@ const Content = styled.div`
 `;
 const Title = styled.span`
   color: #165297;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.6;
   margin: 48px 0 16px;

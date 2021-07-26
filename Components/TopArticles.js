@@ -219,7 +219,7 @@ const TextContainer = styled.div`
 `;
 const Title = styled.span`
   color: #165297;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.33333;
   margin: 48px 0 16px;
@@ -230,6 +230,7 @@ const Title = styled.span`
   margin-right: auto;
   text-align: center;
   max-width: 750px;
+  font-weight: bolder;
 `;
 const Value = styled.span`
   color: #7b8a96;
